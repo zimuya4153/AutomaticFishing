@@ -2,14 +2,14 @@
 
 #include "ll/api/mod/NativeMod.h"
 
-namespace my_plugin {
+namespace AutomaticFishing {
 
-class MyMod {
+class Entry {
 
 public:
-    static MyMod& getInstance();
+    static Entry& getInstance();
 
-    MyMod(ll::mod::NativeMod& self) : mSelf(self) {}
+    Entry(ll::mod::NativeMod& self) : mSelf(self) {}
 
     [[nodiscard]] ll::mod::NativeMod& getSelf() const { return mSelf; }
 
@@ -24,10 +24,10 @@ public:
 
     // TODO: Implement this method if you need to unload the plugin.
     // /// @return True if the plugin is unloaded successfully.
-    // bool unload();
+    bool unload();
 
 private:
     ll::mod::NativeMod& mSelf;
 };
 
-} // namespace my_plugin
+} // namespace AutomaticFishing

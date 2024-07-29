@@ -1,35 +1,17 @@
-# LeviLamina Mod Template
+# AutomaticFishing - 自动钓鱼插件
 
-A LeviLamina mod template
+## 简介
+这是一个基于LeviLamina的自动钓鱼插件，方便玩家挂机钓鱼
 
-This mod is a template for developing LeviLamina mods.
+## 配置文件
+无
 
-## Install
+## 安装方法
 
-Generate a new repository from this template.
-
-## Usage
-
-Before using this mod template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
-
-1. Clone the new repository into a local folder.
-
-1. Change the mod name and the expected LeviLamina version in `xmake.lua`.
-
-1. Add your code.
-
-1. Run `xmake repo -u` in the root of the repository.
-
-1. Run `xmake` to build the mod.
-
-Now the build is complete at `bin/`.
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+- 手动安装
+  - 前往[Releases](https://github.com/zimuya4153/AutomaticFishing/releases)下载最新版本的`AutomaticFishing-windows-x64.zip`
+  - 解压`压缩包内的`文件夹到`./plugins/`目录
+- Lip 安装
+  - 输入命令`lip install -y github.com/zimuya4153/AutomaticFishing`
+- ~~一条龙安装~~
+  - ~~去 Q 群，喊人，帮你安装~~
