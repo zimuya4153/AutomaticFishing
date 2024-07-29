@@ -1,7 +1,7 @@
 {
     "name": "${modName}",
     "entry": "${modFile}",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "type": "native",
     "author":"小小的子沐呀 QQ:1756150362",
     "description":"自动钓鱼插件"
